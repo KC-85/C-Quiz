@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <ctype.h>  // For toupper()
 
 #define MAX_LENGTH 300
 #define EASY_QUESTIONS 1000
@@ -54,7 +55,7 @@ void shuffleQuestions(struct Question *questions, int count) {
 int loadQuestions(const char *filename, struct Question *questions, int maxQuestions, const char *difficulty) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
-        printf("Error: Unable to open the file %s\n", filename);
+        perror("Error opening file");
         return 0;
     }
 
@@ -72,14 +73,23 @@ int loadQuestions(const char *filename, struct Question *questions, int maxQuest
         }
 
         if (load) {
-            fgets(questions[count].question, MAX_LENGTH, file);
-            fgets(questions[count].choices[0], MAX_LENGTH, file);  // Option A
-            fgets(questions[count].choices[1], MAX_LENGTH, file);  // Option B
-            fgets(questions[count].choices[2], MAX_LENGTH, file);  // Option C
-            fgets(questions[count].choices[3], MAX_LENGTH, file);  // Option D
-            questions[count].correctAnswer = fgetc(file);  // Read the correct answer
+            if (fgets(questions[count].question, MAX_LENGTH, file) == NULL ||
+                fgets(questions[count].choices[0], MAX_LENGTH, file) == NULL ||
+                fgets(questions[count].choices[1], MAX_LENGTH, file) == NULL ||
+                fgets(questions[count].choices[2], MAX_LENGTH, file) == NULL ||
+                fgets(questions[count].choices[3], MAX_LENGTH, file) == NULL) {
+                printf("Error reading question %d from file.\n", count + 1);
+                break;
+            }
 
-            fgetc(file);  // Consume the newline after the correct answer
+            // Read correct answer
+            char answerLine[3];  // To handle newline after the correct answer
+            if (fgets(answerLine, sizeof(answerLine), file) == NULL) {
+                printf("Error reading answer for question %d.\n", count + 1);
+                break;
+            }
+            questions[count].correctAnswer = answerLine[0];  // First char is the answer
+
             count++;
         }
     }
@@ -88,41 +98,63 @@ int loadQuestions(const char *filename, struct Question *questions, int maxQuest
     return count;  // Return the number of questions loaded
 }
 
+// Function to dynamically allocate memory for questions
+struct Question* allocateQuestions(int numQuestions) {
+    struct Question* questions = malloc(numQuestions * sizeof(struct Question));
+    if (questions == NULL) {
+        perror("Memory allocation failed");
+        exit(1);  // Exit if memory allocation fails
+    }
+    return questions;
+}
+
 // Function to ask a question and check the answer
 int askQuestion(struct Question q) {
     char userAnswer;
+
+    // Display the question and answer choices
     printf("%s", q.question);
-    printf("%s", q.choices[0]);  // Display choice A
-    printf("%s", q.choices[1]);  // Display choice B
-    printf("%s", q.choices[2]);  // Display choice C
-    printf("%s", q.choices[3]);  // Display choice D
-    printf("Your answer (A/B/C/D): ");
-    scanf(" %c", &userAnswer);
+    printf("A. %s", q.choices[0]);
+    printf("B. %s", q.choices[1]);
+    printf("C. %s", q.choices[2]);
+    printf("D. %s", q.choices[3]);
+
+    // Input loop to ensure valid input
+    do {
+        printf("Your answer (A/B/C/D): ");
+        scanf(" %c", &userAnswer);
+        userAnswer = toupper(userAnswer);  // Convert to uppercase
+
+        // Check for valid input
+        if (userAnswer < 'A' || userAnswer > 'D') {
+            printf("Invalid input. Please enter A, B, C, or D.\n");
+        }
+    } while (userAnswer < 'A' || userAnswer > 'D');  // Continue until valid input
 
     // Check if the user's answer is correct
-    if (userAnswer == q.correctAnswer) {
+    if (userAnswer == toupper(q.correctAnswer)) {
         printCorrectAnswer();
-        return 1;  // Return 1 if the answer is correct
+        return 1;  // Correct
     } else {
         printIncorrectAnswer();
-        // Find the correct choice and reveal the full answer text
-        printf("The correct answer was: ");
-        switch (q.correctAnswer) {
-            case 'A':
-                printf("%s\n", q.choices[0]);  // Reveal option A
-                break;
-            case 'B':
-                printf("%s\n", q.choices[1]);  // Reveal option B
-                break;
-            case 'C':
-                printf("%s\n", q.choices[2]);  // Reveal option C
-                break;
-            case 'D':
-                printf("%s\n", q.choices[3]);  // Reveal option D
-                break;
-        }
-        printf("\n");
-        return 0;  // Return 0 if the answer is incorrect
+        printf("The correct answer was: %c. %s", q.correctAnswer, q.choices[q.correctAnswer - 'A']);
+        return 0;  // Incorrect
+    }
+}
+
+// Function to display the final score
+void displayFinalScore(int score, int totalQuestions) {
+    printf("\nYour total score: %d out of %d\n", score, totalQuestions);
+    float percentage = ((float)score / totalQuestions) * 100;
+    printf("That's a score of %.2f%%\n", percentage);
+
+    // Feedback based on performance
+    if (percentage >= 90) {
+        printf("Excellent! You're a quiz master!\n");
+    } else if (percentage >= 70) {
+        printf("Good job! Keep learning!\n");
+    } else {
+        printf("You might want to study more. Better luck next time!\n");
     }
 }
 
@@ -139,18 +171,18 @@ void runQuiz(struct Question *questions, int questionCount) {
     }
 
     // Display the final score
-    printf("Your total score: %d out of %d\n", score, QUESTIONS_TO_ASK);
+    displayFinalScore(score, QUESTIONS_TO_ASK);
 }
 
 int main() {
     // Display the game introduction banner
     printGameBanner();
 
-    // Define variables and initialize quiz data
-    struct Question easyQuestions[EASY_QUESTIONS];
-    struct Question mediumQuestions[MEDIUM_QUESTIONS];
-    struct Question hardQuestions[HARD_QUESTIONS];
-    struct Question extremeQuestions[EXTREME_QUESTIONS];
+    // Dynamically allocate memory for each difficulty level
+    struct Question* easyQuestions = allocateQuestions(EASY_QUESTIONS);
+    struct Question* mediumQuestions = allocateQuestions(MEDIUM_QUESTIONS);
+    struct Question* hardQuestions = allocateQuestions(HARD_QUESTIONS);
+    struct Question* extremeQuestions = allocateQuestions(EXTREME_QUESTIONS);
 
     // Load questions for each difficulty level
     int easyCount = loadQuestions("questions.txt", easyQuestions, EASY_QUESTIONS, "#Easy");
@@ -158,13 +190,24 @@ int main() {
     int hardCount = loadQuestions("questions.txt", hardQuestions, HARD_QUESTIONS, "#Hard");
     int extremeCount = loadQuestions("questions.txt", extremeQuestions, EXTREME_QUESTIONS, "#Extreme");
 
+    // Ensure that questions are loaded properly
     if (easyCount == 0 || mediumCount == 0 || hardCount == 0 || extremeCount == 0) {
         printf("Error loading questions. Exiting.\n");
+        free(easyQuestions);
+        free(mediumQuestions);
+        free(hardQuestions);
+        free(extremeQuestions);
         return 1;
     }
 
     // Example: Run the quiz with easy questions (replace this with actual user input logic)
     runQuiz(easyQuestions, easyCount);
+
+    // Free allocated memory after use
+    free(easyQuestions);
+    free(mediumQuestions);
+    free(hardQuestions);
+    free(extremeQuestions);
 
     return 0;
 }
