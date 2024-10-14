@@ -1,0 +1,511 @@
+#Easy
+Which country is famous for pizza and pasta?
+Germany
+Spain
+Italy
+France
+C
+
+What is the primary color of the sun?
+Red
+Yellow
+Blue
+Green
+B
+
+Which animal is known as man's best friend?
+Cat
+Dog
+Horse
+Rabbit
+B
+
+What is the largest mammal?
+Elephant
+Blue Whale
+Giraffe
+Rhino
+B
+
+How many days are there in a year?
+360
+364
+365
+366
+C
+
+What is the largest country in the world by area?
+USA
+Russia
+China
+Canada
+B
+
+Which organ pumps blood throughout the body?
+Liver
+Heart
+Lungs
+Kidney
+B
+
+Which sport uses a bat and ball?
+Soccer
+Basketball
+Baseball
+Swimming
+C
+
+What is the capital of Japan?
+Seoul
+Tokyo
+Beijing
+Shanghai
+B
+
+Which month has 28 or 29 days?
+March
+February
+April
+June
+B
+
+How many minutes are in an hour?
+50
+55
+60
+65
+C
+
+Which shape has three sides?
+Square
+Rectangle
+Triangle
+Circle
+C
+
+What is the opposite of hot?
+Warm
+Boiling
+Cold
+Tepid
+C
+
+How many colors are in a rainbow?
+5
+6
+7
+8
+C
+
+Which season comes after summer?
+Spring
+Autumn
+Winter
+Monsoon
+B
+
+Which animal is known for building dams?
+Beaver
+Lion
+Elephant
+Frog
+A
+
+What color is the grass?
+Blue
+Green
+Red
+Yellow
+B
+
+Which planet is closest to the sun?
+Earth
+Venus
+Mars
+Mercury
+D
+
+What is the fastest land animal?
+Elephant
+Lion
+Cheetah
+Giraffe
+C
+
+Which bird is known for its colorful feathers?
+Penguin
+Peacock
+Eagle
+Sparrow
+B
+
+How many hours are there in a day?
+12
+18
+24
+30
+C
+
+What is the hardest natural substance?
+Gold
+Iron
+Silver
+Diamond
+D
+
+Which country is known for sushi?
+Thailand
+Japan
+China
+India
+B
+
+What is the main ingredient in bread?
+Rice
+Wheat
+Oats
+Corn
+B
+
+Which animal is known as the king of the jungle?
+Tiger
+Lion
+Bear
+Wolf
+B
+
+Which city is known as the Big Apple?
+Los Angeles
+Chicago
+New York
+Miami
+C
+
+How many legs does an insect have?
+4
+6
+8
+10
+B
+
+What is the color of an emerald?
+Red
+Green
+Blue
+Purple
+B
+
+Which holiday is celebrated on December 25th?
+Halloween
+Easter
+Christmas
+Thanksgiving
+C
+
+What is the capital of England?
+Edinburgh
+Belfast
+London
+Cardiff
+C
+
+How many fingers does a human have on one hand?
+3
+4
+5
+6
+C
+
+Which fruit is known as the king of fruits?
+Apple
+Mango
+Banana
+Grapes
+B
+
+Which planet is known as the Blue Planet?
+Venus
+Earth
+Mars
+Jupiter
+B
+
+What is the primary ingredient in guacamole?
+Tomato
+Lettuce
+Avocado
+Cucumber
+C
+
+Which sea creature has eight arms?
+Octopus
+Shark
+Dolphin
+Starfish
+A
+
+What color are strawberries?
+Blue
+Green
+Red
+Yellow
+C
+
+Which continent is home to the Amazon Rainforest?
+Africa
+Asia
+Europe
+South America
+D
+
+Who is the main character in the Harry Potter series?
+Hermione Granger
+Harry Potter
+Ron Weasley
+Draco Malfoy
+B
+
+Which country is known as the Land of the Rising Sun?
+China
+India
+Japan
+South Korea
+C
+
+What is the name of the toy cowboy in Toy Story?
+Buzz Lightyear
+Woody
+Jessie
+Rex
+B
+
+Which animal is known for its humps?
+Horse
+Camel
+Cow
+Sheep
+B
+
+Which bird cannot fly?
+Penguin
+Eagle
+Parrot
+Hawk
+A
+
+Which fruit is known for having seeds on the outside?
+Orange
+Banana
+Strawberry
+Apple
+C
+
+What does a caterpillar turn into?
+Snake
+Butterfly
+Ant
+Beetle
+B
+
+Who was the first president of the United States?
+George Washington
+Thomas Jefferson
+Abraham Lincoln
+John Adams
+A
+
+In which city would you find the Eiffel Tower?
+Rome
+Berlin
+London
+Paris
+D
+
+What is the name of the school that Harry Potter attended?
+Hogwarts
+Ilvermorny
+Beauxbatons
+Durmstrang
+A
+
+What do pandas mainly eat?
+Bamboo
+Meat
+Fish
+Insects
+A
+
+Which natural disaster is measured with a Richter scale?
+Hurricane
+Earthquake
+Tsunami
+Volcano
+B
+
+What color are school buses in the United States?
+Red
+Green
+Yellow
+Blue
+C
+
+How many planets are in the solar system?
+6
+7
+8
+9
+C
+
+How many letters are in the English alphabet?
+24
+25
+26
+27
+C
+
+Which fruit is known for having many varieties like Fuji and Gala?
+Orange
+Banana
+Apple
+Grapes
+C
+
+What is 5 multiplied by 5?
+20
+25
+30
+35
+B
+
+Which country is famous for the Eiffel Tower?
+Germany
+France
+Italy
+Spain
+B
+
+What is the smallest prime number?
+0
+1
+2
+3
+C
+
+What do cows drink?
+Milk
+Water
+Juice
+Soda
+B
+
+Which country gave the Statue of Liberty to the USA?
+Germany
+France
+Spain
+Canada
+B
+
+What is the capital of Spain?
+Barcelona
+Madrid
+Valencia
+Seville
+B
+
+How many days are in a leap year?
+365
+366
+367
+368
+B
+
+Which month comes after October?
+September
+November
+December
+January
+B
+
+What is the name of the pirate in Peter Pan?
+Hook
+Smee
+Jack
+Blackbeard
+A
+
+What is the chemical symbol for oxygen?
+O
+O2
+CO2
+OH
+A
+
+How many wheels does a tricycle have?
+2
+3
+4
+5
+B
+
+Which shape is round?
+Square
+Triangle
+Circle
+Rectangle
+C
+
+What do bees make?
+Honey
+Wax
+Bread
+Flowers
+A
+
+Which planet is known for its rings?
+Mercury
+Venus
+Saturn
+Mars
+C
+
+How many stars are on the United States flag?
+49
+50
+51
+52
+B
+
+What is the name of the superhero with a shield?
+Superman
+Captain America
+Iron Man
+Batman
+B
+
+Who wrote 'Romeo and Juliet'?
+Mark Twain
+William Shakespeare
+Charles Dickens
+J.K. Rowling
+B
+
+Which animal can live both on land and in water?
+Fish
+Frog
+Eagle
+Horse
+B
+
+Who was the first man to walk on the moon?
+Buzz Aldrin
+Neil Armstrong
+Michael Collins
+Yuri Gagarin
+B
+
+What is the main ingredient in lemonade?
+Lemon
+Orange
+Lime
+Strawberry
+A
