@@ -1,0 +1,810 @@
+{
+    "questions": [
+      {
+        "question": "Which country is famous for pizza and pasta?",
+        "choices": ["Germany", "Spain", "Italy", "France"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the primary color of the sun?",
+        "choices": ["Red", "Yellow", "Blue", "Green"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal is known as man's best friend?",
+        "choices": ["Cat", "Dog", "Horse", "Rabbit"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the largest mammal?",
+        "choices": ["Elephant", "Blue Whale", "Giraffe", "Rhino"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many days are there in a year?",
+        "choices": ["360", "364", "365", "366"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the largest country in the world by area?",
+        "choices": ["USA", "Russia", "China", "Canada"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which organ pumps blood throughout the body?",
+        "choices": ["Liver", "Heart", "Lungs", "Kidney"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which sport uses a bat and ball?",
+        "choices": ["Soccer", "Basketball", "Baseball", "Swimming"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the capital of Japan?",
+        "choices": ["Seoul", "Tokyo", "Beijing", "Shanghai"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which month has 28 or 29 days?",
+        "choices": ["March", "February", "April", "June"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many minutes are in an hour?",
+        "choices": ["50", "55", "60", "65"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which shape has three sides?",
+        "choices": ["Square", "Rectangle", "Triangle", "Circle"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the opposite of hot?",
+        "choices": ["Warm", "Boiling", "Cold", "Tepid"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many colors are in a rainbow?",
+        "choices": ["5", "6", "7", "8"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which season comes after summer?",
+        "choices": ["Spring", "Autumn", "Winter", "Monsoon"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal is known for building dams?",
+        "choices": ["Beaver", "Lion", "Elephant", "Frog"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What color is the grass?",
+        "choices": ["Blue", "Green", "Red", "Yellow"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which planet is closest to the sun?",
+        "choices": ["Earth", "Venus", "Mars", "Mercury"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "What is the fastest land animal?",
+        "choices": ["Elephant", "Lion", "Cheetah", "Giraffe"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which bird is known for its colorful feathers?",
+        "choices": ["Penguin", "Peacock", "Eagle", "Sparrow"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many hours are there in a day?",
+        "choices": ["12", "18", "24", "30"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the hardest natural substance?",
+        "choices": ["Gold", "Iron", "Silver", "Diamond"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Which country is known for sushi?",
+        "choices": ["Thailand", "Japan", "China", "India"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the main ingredient in bread?",
+        "choices": ["Rice", "Wheat", "Oats", "Corn"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal is known as the king of the jungle?",
+        "choices": ["Tiger", "Lion", "Bear", "Wolf"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which city is known as the Big Apple?",
+        "choices": ["Los Angeles", "Chicago", "New York", "Miami"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many legs does an insect have?",
+        "choices": ["4", "6", "8", "10"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the color of an emerald?",
+        "choices": ["Red", "Green", "Blue", "Purple"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which holiday is celebrated on December 25th?",
+        "choices": ["Halloween", "Easter", "Christmas", "Thanksgiving"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the capital of England?",
+        "choices": ["Edinburgh", "Belfast", "London", "Cardiff"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many fingers does a human have on one hand?",
+        "choices": ["3", "4", "5", "6"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which fruit is known as the king of fruits?",
+        "choices": ["Apple", "Mango", "Banana", "Grapes"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which planet is known as the Blue Planet?",
+        "choices": ["Venus", "Earth", "Mars", "Jupiter"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the primary ingredient in guacamole?",
+        "choices": ["Tomato", "Lettuce", "Avocado", "Cucumber"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which sea creature has eight arms?",
+        "choices": ["Octopus", "Shark", "Dolphin", "Starfish"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What color are strawberries?",
+        "choices": ["Blue", "Green", "Red", "Yellow"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which continent is home to the Amazon Rainforest?",
+        "choices": ["Africa", "Asia", "Europe", "South America"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Who is the main character in the Harry Potter series?",
+        "choices": ["Hermione Granger", "Harry Potter", "Ron Weasley", "Draco Malfoy"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "choices": ["China", "India", "Japan", "South Korea"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the toy cowboy in Toy Story?",
+        "choices": ["Buzz Lightyear", "Woody", "Jessie", "Rex"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal is known for its humps?",
+        "choices": ["Horse", "Camel", "Cow", "Sheep"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which bird cannot fly?",
+        "choices": ["Penguin", "Eagle", "Parrot", "Hawk"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which fruit is known for having seeds on the outside?",
+        "choices": ["Orange", "Banana", "Strawberry", "Apple"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What does a caterpillar turn into?",
+        "choices": ["Snake", "Butterfly", "Ant", "Beetle"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first president of the United States?",
+        "choices": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "In which city would you find the Eiffel Tower?",
+        "choices": ["Rome", "Berlin", "London", "Paris"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "What is the name of the school that Harry Potter attended?",
+        "choices": ["Hogwarts", "Ilvermorny", "Beauxbatons", "Durmstrang"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What do pandas mainly eat?",
+        "choices": ["Bamboo", "Meat", "Fish", "Insects"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which natural disaster is measured with a Richter scale?",
+        "choices": ["Hurricane", "Earthquake", "Tsunami", "Volcano"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What color are school buses in the United States?",
+        "choices": ["Red", "Green", "Yellow", "Blue"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many planets are in the solar system?",
+        "choices": ["6", "7", "8", "9"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many letters are in the English alphabet?",
+        "choices": ["24", "25", "26", "27"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which fruit is known for having many varieties like Fuji and Gala?",
+        "choices": ["Orange", "Banana", "Apple", "Grapes"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is 5 multiplied by 5?",
+        "choices": ["20", "25", "30", "35"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which country is famous for the Eiffel Tower?",
+        "choices": ["Germany", "France", "Italy", "Spain"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the smallest prime number?",
+        "choices": ["0", "1", "2", "3"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What do cows drink?",
+        "choices": ["Milk", "Water", "Juice", "Soda"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which country gave the Statue of Liberty to the USA?",
+        "choices": ["Germany", "France", "Spain", "Canada"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the capital of Spain?",
+        "choices": ["Barcelona", "Madrid", "Valencia", "Seville"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many days are in a leap year?",
+        "choices": ["365", "366", "367", "368"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which month comes after October?",
+        "choices": ["September", "November", "December", "January"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the name of the pirate in Peter Pan?",
+        "choices": ["Hook", "Smee", "Jack", "Blackbeard"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the chemical symbol for oxygen?",
+        "choices": ["O", "O2", "CO2", "OH"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "How many wheels does a tricycle have?",
+        "choices": ["2", "3", "4", "5"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which shape is round?",
+        "choices": ["Square", "Triangle", "Circle", "Rectangle"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What do bees make?",
+        "choices": ["Honey", "Wax", "Bread", "Flowers"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which planet is known for its rings?",
+        "choices": ["Mercury", "Venus", "Saturn", "Mars"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "How many stars are on the United States flag?",
+        "choices": ["49", "50", "51", "52"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the name of the superhero with a shield?",
+        "choices": ["Superman", "Captain America", "Iron Man", "Batman"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "choices": ["Mark Twain", "William Shakespeare", "Charles Dickens", "J.K. Rowling"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal can live both on land and in water?",
+        "choices": ["Fish", "Frog", "Eagle", "Horse"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first man to walk on the moon?",
+        "choices": ["Buzz Aldrin", "Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the main ingredient in lemonade?",
+        "choices": ["Lemon", "Orange", "Lime", "Strawberry"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which animal is known for its black and white stripes?",
+        "choices": ["Lion", "Zebra", "Tiger", "Cheetah"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many bones are in the adult human body?",
+        "choices": ["200", "206", "212", "218"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which planet is the hottest in our solar system?",
+        "choices": ["Mercury", "Venus", "Earth", "Mars"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the smallest country in the world?",
+        "choices": ["Monaco", "Malta", "Vatican City", "Liechtenstein"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which organ is responsible for filtering blood in the body?",
+        "choices": ["Liver", "Kidney", "Heart", "Lung"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What type of tree produces acorns?",
+        "choices": ["Pine", "Oak", "Maple", "Birch"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which metal is used to make coins?",
+        "choices": ["Iron", "Copper", "Tin", "Lead"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What color are the stars on the American flag?",
+        "choices": ["Red", "White", "Blue", "Green"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who is the author of 'The Cat in the Hat'?",
+        "choices": ["Roald Dahl", "J.K. Rowling", "Dr. Seuss", "Mark Twain"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the frozen water that falls from the sky?",
+        "choices": ["Rain", "Sleet", "Hail", "Snow"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Which animal is known for its large trunk?",
+        "choices": ["Rhino", "Elephant", "Giraffe", "Lion"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many grams are in a kilogram?",
+        "choices": ["10", "100", "1000", "10000"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the capital city of Australia?",
+        "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the largest island in the world?",
+        "choices": ["Madagascar", "Greenland", "Australia", "Iceland"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "choices": ["Margaret Thatcher", "Angela Merkel", "Theresa May", "Queen Elizabeth II"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which animal is famous for its spots?",
+        "choices": ["Zebra", "Cheetah", "Tiger", "Giraffe"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which planet is known for its Great Red Spot?",
+        "choices": ["Mars", "Jupiter", "Saturn", "Neptune"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many teeth does an adult human have?",
+        "choices": ["28", "30", "32", "34"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which sport is played at Wimbledon?",
+        "choices": ["Cricket", "Basketball", "Tennis", "Soccer"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which fruit is known for its vitamin C content?",
+        "choices": ["Banana", "Orange", "Apple", "Grapes"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the name of the pirate ship in Peter Pan?",
+        "choices": ["The Jolly Roger", "The Black Pearl", "The Flying Dutchman", "The Queen Anne's Revenge"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which shape has four equal sides?",
+        "choices": ["Circle", "Triangle", "Square", "Rectangle"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which animal is known for its ability to change color?",
+        "choices": ["Chameleon", "Crocodile", "Lion", "Elephant"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which country is home to the Great Wall?",
+        "choices": ["Japan", "China", "India", "South Korea"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many sides does a pentagon have?",
+        "choices": ["4", "5", "6", "7"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which famous ship sank in 1912?",
+        "choices": ["The Titanic", "The Mayflower", "The Queen Mary", "The Lusitania"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the color of a ruby?",
+        "choices": ["Green", "Red", "Blue", "Yellow"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first person to fly solo across the Atlantic Ocean?",
+        "choices": ["Amelia Earhart", "Charles Lindbergh", "Wilbur Wright", "Howard Hughes"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the square root of 16?",
+        "choices": ["2", "3", "4", "5"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which country is home to the Eiffel Tower?",
+        "choices": ["Germany", "Spain", "Italy", "France"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "What is the name of the fairy in Peter Pan?",
+        "choices": ["Cinderella", "Tinker Bell", "Aurora", "Snow White"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the name of the mountain range in South America?",
+        "choices": ["Himalayas", "Alps", "Andes", "Rockies"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who is known as the father of modern physics?",
+        "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many continents are there?",
+        "choices": ["5", "6", "7", "8"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which is the fastest bird in the world?",
+        "choices": ["Ostrich", "Eagle", "Peregrine Falcon", "Penguin"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the galaxy that contains the Earth?",
+        "choices": ["Andromeda", "Milky Way", "Whirlpool", "Sombrero"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which bird is known for its long neck?",
+        "choices": ["Ostrich", "Pelican", "Peacock", "Swan"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Who was the first President of the United States?",
+        "choices": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "John Adams"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the main ingredient in chocolate?",
+        "choices": ["Milk", "Sugar", "Cocoa", "Butter"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the largest desert in the world?",
+        "choices": ["Gobi Desert", "Kalahari Desert", "Sahara Desert", "Antarctica"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Which planet has the most moons?",
+        "choices": ["Earth", "Venus", "Jupiter", "Mars"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which language is the most spoken in the world?",
+        "choices": ["Spanish", "English", "Chinese", "Hindi"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What do bees collect from flowers?",
+        "choices": ["Honey", "Nectar", "Pollen", "Water"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which organ is responsible for pumping blood?",
+        "choices": ["Lung", "Heart", "Liver", "Kidney"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many colors are there in a rainbow?",
+        "choices": ["6", "7", "8", "9"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What type of animal is a dolphin?",
+        "choices": ["Fish", "Mammal", "Bird", "Reptile"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the largest organ in the human body?",
+        "choices": ["Heart", "Skin", "Liver", "Lung"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the primary source of energy for Earth?",
+        "choices": ["The Moon", "The Sun", "Electricity", "Wind"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many wheels does a bicycle have?",
+        "choices": ["1", "2", "3", "4"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who invented the telephone?",
+        "choices": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Henry Ford"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which fruit is known as the 'king of fruits'?",
+        "choices": ["Apple", "Banana", "Mango", "Orange"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the largest animal on land?",
+        "choices": ["Elephant", "Blue Whale", "Giraffe", "Tiger"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the name of the longest river in the world?",
+        "choices": ["Amazon River", "Mississippi River", "Yangtze River", "Nile River"],
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Who is known as the king of the jungle?",
+        "choices": ["Tiger", "Elephant", "Lion", "Giraffe"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the fastest land animal?",
+        "choices": ["Cheetah", "Lion", "Horse", "Elephant"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the tallest animal in the world?",
+        "choices": ["Elephant", "Giraffe", "Rhino", "Horse"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the largest animal in the ocean?",
+        "choices": ["Shark", "Whale", "Dolphin", "Jellyfish"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "choices": ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "Mark Twain"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the hardest natural substance on Earth?",
+        "choices": ["Gold", "Silver", "Diamond", "Iron"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which planet is closest to the Earth?",
+        "choices": ["Mars", "Venus", "Jupiter", "Saturn"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the capital city of Italy?",
+        "choices": ["Rome", "Paris", "Madrid", "Berlin"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "How many letters are there in the English alphabet?",
+        "choices": ["24", "25", "26", "27"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who was the first man to walk on the moon?",
+        "choices": ["Buzz Aldrin", "Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which continent is known as the 'dark continent'?",
+        "choices": ["Europe", "Asia", "Africa", "Australia"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the main ingredient in a Caesar salad?",
+        "choices": ["Lettuce", "Spinach", "Cabbage", "Tomato"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the color of an emerald?",
+        "choices": ["Red", "Green", "Blue", "Yellow"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the capital of Russia?",
+        "choices": ["Moscow", "Saint Petersburg", "Kiev", "Sochi"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "How many days are in a leap year?",
+        "choices": ["365", "366", "367", "368"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which sport is known as 'the beautiful game'?",
+        "choices": ["Basketball", "Cricket", "Soccer", "Rugby"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the main ingredient in sushi?",
+        "choices": ["Chicken", "Beef", "Rice", "Pasta"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which country is known for producing chocolate?",
+        "choices": ["France", "Switzerland", "Italy", "Germany"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the freezing point of water in Celsius?",
+        "choices": ["0", "32", "100", "-32"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which fruit is known for keeping the doctor away?",
+        "choices": ["Banana", "Grapes", "Apple", "Mango"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the ship in 'Moby Dick'?",
+        "choices": ["The Jolly Roger", "The Pequod", "The Black Pearl", "The Titanic"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which animal is known for being slow-moving?",
+        "choices": ["Cheetah", "Elephant", "Sloth", "Giraffe"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the famous clock tower in London?",
+        "choices": ["Big Ben", "Eiffel Tower", "Colosseum", "Statue of Liberty"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Which planet is known for its rings?",
+        "choices": ["Venus", "Earth", "Saturn", "Mars"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the name of the fish in 'Finding Nemo'?",
+        "choices": ["Dory", "Nemo", "Marlin", "Gill"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who wrote 'The Jungle Book'?",
+        "choices": ["Mark Twain", "Rudyard Kipling", "J.K. Rowling", "George Orwell"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "What is the main ingredient in spaghetti?",
+        "choices": ["Wheat", "Rice", "Pasta", "Corn"],
+        "correctAnswer": "C"
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "choices": ["Berlin", "Munich", "Frankfurt", "Hamburg"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the smallest planet in the solar system?",
+        "choices": ["Mercury", "Venus", "Mars", "Earth"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who was the first female aviator to fly solo across the Atlantic?",
+        "choices": ["Amelia Earhart", "Marie Curie", "Harriet Tubman", "Florence Nightingale"],
+        "correctAnswer": "A"
+      },
+      {
+        "question": "What is the color of a sunflower?",
+        "choices": ["Red", "Yellow", "Blue", "Green"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "How many continents are there in the world?",
+        "choices": ["6", "7", "8", "9"],
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which fruit is known for its high vitamin C content?",
+        "choices": ["Apple", "Orange", "Banana", "Grapes"],
+        "correctAnswer": "B"
+      }
+    ]
+  }
+  
