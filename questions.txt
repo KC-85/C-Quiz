@@ -959,12 +959,12 @@ How many letters are there in the English alphabet?
 27
 C
 
-Who was the first man to walk on the moon?
-Buzz Aldrin
-Neil Armstrong
-Michael Collins
-Yuri Gagarin
-B
+In the film, Independence Day, Who is the President?
+Whitmore
+Smith
+David
+Kyle
+A
 
 Which continent is known as the "dark continent"?
 Europe
