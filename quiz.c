@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>  // For toupper()
+#include <time.h>   // For time() function (random number seeding)
 #include "cJSON.h"  // Include the cJSON library
 
 #define MAX_LENGTH 300
